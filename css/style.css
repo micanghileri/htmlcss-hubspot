@@ -24,7 +24,6 @@ body {
     width: 80%;
     height: 100%;
     max-width: 1200px;
-    background-color: orange;
     margin: 0 auto;
     border: 1px solid white;
 }
@@ -41,16 +40,18 @@ body {
     color: #33475b;
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #33475b;
+}
+
 /* fine stilizzazione intera pagina */
 
 /* inizio stilizzazione header */
 
 .striscia {
     width: 100%;
-
-    /* da eliminare */
-    background-color: violet;
-    border: 1px solid green;
 }
 
 /* striscia lingua */
@@ -204,8 +205,9 @@ body {
 
 .mwjumbotron img {
     position: absolute;
-    right: 0;
+    right: -100px;
     bottom: 0;
+    border-bottom: 3px solid #33475b;
     z-index: 10;
 }
 
@@ -220,6 +222,7 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-70%);
+    z-index: 20;
 }
 
 .sx h1 {
@@ -249,11 +252,25 @@ body {
 
 /* inizio stilizzazione main */
 
+/* contenitore grigio cubo rubik */
+
 .grigio {
     /* da cancellare */
-    height: 800px;
-    background-color: lightgrey;
+    height: 1000px;
+    background-color: #f4f9fd;
 }
+
+#rubikcube {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#rubikcube img {
+    width: 270px;
+}
+
+/* fine contenitore grigio cubo rubik */
 
 .gradiente {
     /* da cancellare */
