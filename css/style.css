@@ -21,12 +21,24 @@ body {
 }
 
 .contenitore-maxwidth {
-    width: 73%;
+    width: 80%;
     height: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     background-color: orange;
     margin: 0 auto;
     border: 1px solid white;
+}
+
+.pnormal {
+    font-size: 18px;
+    font-weight: 400;
+    color: #33475b;
+}
+
+.psmall {
+    font-size: 14px;
+    font-weight: 500;
+    color: #33475b;
 }
 
 /* fine stilizzazione intera pagina */
@@ -45,6 +57,8 @@ body {
 
 .linguaggio {
     height: 75px;
+    background-color: #f3f6f9;
+    border-bottom: 1px solid #cad5e1;
 }
 
 .lingua {
@@ -180,29 +194,57 @@ body {
 /* striscia copertina */
 
 .jumbotron {
-    height: 500px;
+    height: 620px;
+    background-color: #fff4ef;
+}
 
-    /* da cancellare */
-    background-color: pink;
+.mwjumbotron {
+    position: relative;
+}
+
+.mwjumbotron img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
 .copertina {
     height: 100%;
+    position: relative;
 }
 
-.quadrante {
-    height: 100%;
-    width: 50%;
-    float: left;
-
-    /* da cancellare */
-    background-color: lightgreen;
-    border: 1px solid black;
+.sx {
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-70%);
 }
 
-#spazio-vuoto {
-
+.sx h1 {
+    font-size: 46px;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #33475b;
+    padding-bottom: 30px;
 }
+
+.sx button {
+    background-color: #FF7A59;
+    padding: 25px 30px 25px 30px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 15px 0 20px 0;
+}
+
+.sx button:hover {
+    background-color: #faac9b;
+    border: 1px solid #faac9b;
+}
+
 /* fine stilizzazione header */
 
 /* inizio stilizzazione main */
