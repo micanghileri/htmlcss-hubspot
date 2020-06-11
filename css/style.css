@@ -1,0 +1,150 @@
+/* inizio stilizzazione intera pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-fullwidth {
+    width: 100vw;
+}
+
+.contenitore-maxwidth {
+    width: 80%;
+    height: 100%;
+    max-width: 1400px;
+    background-color: orange;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+/* fine stilizzazione intera pagina */
+
+/* inizio stilizzazione header */
+
+.jumbotron {
+    height: 680px;
+
+    /* da cancellare */
+    background-color: pink;
+}
+
+.striscia {
+    width: 100%;
+
+    /* da eliminare */
+    background-color: violet;
+    border: 1px solid green;
+}
+
+/* striscia lingua */
+
+.lingua {
+    height: 90px;
+}
+
+#spazio-lingua {
+    height: 100%;
+    width: 400px;
+    float: left;
+
+    /* da cancellare */
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#spazio-bottoni {
+    height: 100%;
+    width: 400px;
+    float: right;
+
+    /* da cancellare */
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+/* striscia logo */
+
+.logo {
+    height: 90px;
+}
+
+#spazio-logo {
+    height: 100%;
+    width: 200px;
+    float: left;
+
+    /* da cancellare */
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+#spazio-menu {
+    height: 100%;
+    width: 700px;
+    float: right;
+
+    /* da cancellare */
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+/* striscia copertina */
+
+.copertina {
+    height: 500px;
+}
+
+.quadrante {
+    height: 100%;
+    width: 50%;
+    float: left;
+
+    /* da cancellare */
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+#spazio-vuoto {
+
+}
+/* fine stilizzazione header */
+
+/* inizio stilizzazione main */
+
+.grigio {
+    /* da cancellare */
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.gradiente {
+    /* da cancellare */
+    height: 400px;
+    background-color: lightblue;
+}
+
+.grigio-piccolo {
+    /* da cancellare */
+    height: 400px;
+    background-color: lightgrey;
+}
+
+/* fine stilizzazione main */
+
+/* inizio stilizzazione footer */
+
+.petrolio {
+    /* da cancellare */
+    height: 400px;
+    background-color: darkblue;
+}
+
+/* fine stilizzazione footer */
