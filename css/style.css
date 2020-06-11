@@ -281,14 +281,77 @@ h3 {
 /* inizio card orizzontale */
 
 #cardorizzontale {
-    width: 75%;
+    width: 950px;
     background-color: #ffffff;
     margin: 0 auto;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 11px #eaf0f6;
+    height: 300px;
+}
 
-    /* da cancellare */
-    height: 270px;
+.latosx-cardorizzontale {
+    width: 40%;
+    text-align: center;
+    float: left;
+}
+
+.latosx-cardorizzontale img {
+    width: 70%;
+    padding: 23px;
+}
+
+.latosx-cardorizzontale button {
+    background-color: #FF7A59;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+.latosx-cardorizzontale button:hover {
+    background-color: #faac9b;
+    border: 1px solid #faac9b;
+}
+
+.latodx-cardorizzontale {
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    float: left;
+    position: relative;
+}
+
+.contenuto-latodx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pincard {
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.latodx-cardorizzontale hr {
+    width: 50%;
+    display: inline-block;
+    margin: 0 0 3px 10px;
+    border: 1px solid #eaf0f6;
+}
+
+.ceck p {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.ceck p i {
+    color: #FF7A59;
 }
 
 /* fine card orizzontale */
