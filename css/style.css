@@ -29,13 +29,6 @@
 
 /* inizio stilizzazione header */
 
-.jumbotron {
-    height: 680px;
-
-    /* da cancellare */
-    background-color: pink;
-}
-
 .striscia {
     width: 100%;
 
@@ -46,8 +39,15 @@
 
 /* striscia lingua */
 
-.lingua {
+.linguaggio {
     height: 90px;
+
+    /* da cancellare */
+    background-color: red;
+}
+
+.lingua {
+    height: 100%;
 }
 
 #spazio-lingua {
@@ -72,18 +72,29 @@
 
 /* striscia logo */
 
-.logo {
+.logomenu {
     height: 90px;
+
+    /* da cancellare */
+    background-color: blue;
+}
+
+.logo {
+    height: 100%;
 }
 
 #spazio-logo {
     height: 100%;
     width: 200px;
     float: left;
+    position: relative;
+}
 
-    /* da cancellare */
-    background-color: lightgrey;
-    border: 1px solid black;
+#spazio-logo img {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #spazio-menu {
@@ -98,8 +109,15 @@
 
 /* striscia copertina */
 
-.copertina {
+.jumbotron {
     height: 500px;
+
+    /* da cancellare */
+    background-color: pink;
+}
+
+.copertina {
+    height: 100%;
 }
 
 .quadrante {
