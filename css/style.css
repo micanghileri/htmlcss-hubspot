@@ -46,6 +46,12 @@ h2 {
     color: #33475b;
 }
 
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #33475b;
+}
+
 /* fine stilizzazione intera pagina */
 
 /* inizio stilizzazione header */
@@ -252,7 +258,7 @@ h2 {
 
 /* inizio stilizzazione main */
 
-/* contenitore grigio cubo rubik */
+/* inizio contenitore grigio cubo rubik */
 
 .grigio {
     /* da cancellare */
@@ -271,6 +277,21 @@ h2 {
 }
 
 /* fine contenitore grigio cubo rubik */
+
+/* inizio card orizzontale */
+
+#cardorizzontale {
+    width: 75%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #eaf0f6;
+
+    /* da cancellare */
+    height: 270px;
+}
+
+/* fine card orizzontale */
 
 .gradiente {
     /* da cancellare */
