@@ -261,8 +261,6 @@ h3 {
 /* inizio contenitore grigio cubo rubik */
 
 .grigio {
-    /* da cancellare */
-    height: 1000px;
     background-color: #f4f9fd;
 }
 
@@ -355,6 +353,94 @@ h3 {
 }
 
 /* fine card orizzontale */
+
+/* inizio card verticali */
+
+#cardverticali {
+    height: 600px;
+    position: relative;
+    background-color: blue;
+}
+
+.contenitore-card {
+    width: 90%;
+    margin: 20px 5px 10px 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+}
+
+.cards {
+    height: 550px;
+    width: 310px;
+    text-align: center;
+    border: 10px solid transparent;
+    float: left;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #eaf0f6;
+}
+
+.card-img {
+    width: 100%;
+    padding-top: 20px;
+    height: 170px;
+}
+
+.card-img img {
+    width: 130px;
+}
+
+.change img {
+    width: 160px;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-content hr {
+    width: 90%;
+    margin: 5%;
+    border: 1px solid #eaf0f6;
+
+}
+
+.psmallcard {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #33475b;
+}
+
+.pad {
+    padding: 10px 20px 10px 20px;
+}
+
+.padceck {
+    padding: 10px 20px 0 20px;
+}
+
+.pincardpro {
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.h3pro {
+    font-size: 22px;
+    font-weight: 600;
+    color: #33475b;
+    padding: 20px 0 20px 0;
+
+/* fine card verticali */
 
 .gradiente {
     /* da cancellare */
