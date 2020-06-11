@@ -66,6 +66,11 @@ h3 {
     height: 75px;
     background-color: #f3f6f9;
     border-bottom: 1px solid #cad5e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 9999;
 }
 
 .lingua {
@@ -156,6 +161,7 @@ h3 {
 
 .logomenu {
     height: 90px;
+    margin-top: 75px;
 }
 
 .logo {
