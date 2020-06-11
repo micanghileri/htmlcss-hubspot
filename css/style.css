@@ -25,7 +25,7 @@ body {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .pnormal {
@@ -262,6 +262,7 @@ h3 {
 
 .grigio {
     background-color: #f4f9fd;
+    padding-bottom: 40px;
 }
 
 #rubikcube {
@@ -357,22 +358,19 @@ h3 {
 /* inizio card verticali */
 
 #cardverticali {
-    height: 600px;
+    height: 650px;
     position: relative;
-    background-color: blue;
 }
 
 .contenitore-card {
-    width: 90%;
-    margin: 20px 5px 10px 5px;
+    width: 930px;
     position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    background-color: red;
+    transform: translate(-50%,-50%);
 }
 
 .cards {
-    height: 550px;
     width: 310px;
     text-align: center;
     border: 10px solid transparent;
@@ -420,7 +418,7 @@ h3 {
 }
 
 .pad {
-    padding: 10px 20px 10px 20px;
+    padding: 0 20px 10px 20px;
 }
 
 .padceck {
@@ -438,12 +436,31 @@ h3 {
     font-size: 22px;
     font-weight: 600;
     color: #33475b;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
+}
+
+.card-content button {
+    background-color: #FF7A59;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.card-content button:hover {
+    background-color: #faac9b;
+    border: 1px solid #faac9b;
+}
+
+.verticalceck p i {
+    color: #FF7A59;
+}
 
 /* fine card verticali */
 
 .gradiente {
-    /* da cancellare */
     height: 400px;
     background-color: lightblue;
 }
