@@ -12,12 +12,16 @@
     display: table;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 .container-fullwidth {
     width: 100vw;
 }
 
 .contenitore-maxwidth {
-    width: 80%;
+    width: 73%;
     height: 100%;
     max-width: 1400px;
     background-color: orange;
@@ -40,43 +44,97 @@
 /* striscia lingua */
 
 .linguaggio {
-    height: 90px;
-
-    /* da cancellare */
-    background-color: red;
+    height: 75px;
 }
 
 .lingua {
     height: 100%;
+    position: relative;
 }
 
 #spazio-lingua {
-    height: 100%;
     width: 400px;
     float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600;
+    color: #33475b;
+}
 
-    /* da cancellare */
-    background-color: lightblue;
-    border: 1px solid black;
+#rettangolo-lingua {
+    padding-right: 20px;
+}
+
+#rettangolo-lingua p {
+    display: inline-block;
+    padding: 0 4px 0 4px;
+}
+
+#rettangolo-lingua i {
+    padding-right: 5px;
+}
+
+#chevron {
+    color: #7C98B6;
+}
+
+#vertical-line {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #DCE3EB;
+}
+
+#contact-us {
+    padding-left: 20px;
 }
 
 #spazio-bottoni {
-    height: 100%;
     width: 400px;
     float: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
 
-    /* da cancellare */
-    background-color: lightblue;
-    border: 1px solid black;
+#search-button i {
+    color: #00a4bd;
+    padding-right: 35px;
+}
+
+#login-button button {
+    background-color: inherit;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    color: #FF7A59;
+}
+
+#login-button button:hover {
+    background-color: #feedea;
+}
+
+#hubspotfree-button button {
+    background-color: #FF7A59;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#hubspotfree-button button:hover {
+    background-color: #faac9b;
+    border: 1px solid #faac9b;
 }
 
 /* striscia logo */
 
 .logomenu {
     height: 90px;
-
-    /* da cancellare */
-    background-color: blue;
 }
 
 .logo {
@@ -91,7 +149,7 @@
 }
 
 #spazio-logo img {
-    width: 150px;
+    width: 100px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -101,10 +159,22 @@
     height: 100%;
     width: 700px;
     float: right;
+    text-align: right;
+}
 
-    /* da cancellare */
-    background-color: lightgrey;
-    border: 1px solid black;
+#spazio-menu ul li {
+    display: inline-block;
+    line-height: 90px;
+    padding: 0 0 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #33475b;
+    padding-right: 10px;
+}
+
+#spazio-menu ul li i {
+    color: #7C98B6;
+    padding-left: 4px;
 }
 
 /* striscia copertina */
