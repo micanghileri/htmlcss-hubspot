@@ -207,8 +207,10 @@ h3 {
 /* striscia copertina */
 
 .jumbotron {
-    height: 620px;
+    height: 625px;
     background-color: #fff4ef;
+    border-bottom: 3px solid #33475b;
+    overflow: hidden;
 }
 
 .mwjumbotron {
@@ -219,13 +221,36 @@ h3 {
     position: absolute;
     right: -100px;
     bottom: 0;
-    border-bottom: 3px solid #33475b;
     z-index: 10;
-    min-width: 1025px;
+    min-width: 1297px;
+    max-width: 1297px;
+}
+
+.imgbassosx{
+    position: absolute;
+    bottom: 0;
+    left: -9990px;
+    width: 10000px;
+    height: 76px;
+    max-height: 76px;
+    min-height: 76px;
+    background-color: rgb(175,235,228);
+    border-top: 3px solid rgb(51,71,91);
+}
+
+.imgbassodx{
+    position: absolute;
+    bottom: 0;
+    right: -10000px;
+    width: 10000px;
+    height: 147.7px;
+    max-height: 147.7;
+    min-height: 147.7;
+    background-color: #00a48d;
+    border-top: 3.5px solid rgb(51,71,91);
 }
 
 .copertina {
-    height: 100%;
     position: relative;
 }
 
