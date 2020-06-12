@@ -919,3 +919,35 @@ h4 {
 /* fine logo footer */
 
 /* fine stilizzazione footer */
+
+/* inizio stilizzazione icona rotonda fix */
+
+.roundiconfix {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    position: fixed;
+    background-color: #344964;
+    border-radius: 50%;
+    box-shadow: 0 0 11px #2f435d;
+    bottom: 17px;
+    right: 17px;
+    z-index: 9998;
+}
+
+.roundiconfix i {
+    color: #ffffff;
+    text-align: center;
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 90%;
+}
+
+.roundiconfix:hover {
+    box-shadow: 0 0 13px #1a2633;
+}
+
+/* fine stilizzazione icona rotonda fix */
