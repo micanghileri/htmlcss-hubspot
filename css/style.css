@@ -504,7 +504,8 @@ h3 {
 
 .arealoghi-gradiente {
     height: 500px;
-    width: 1200px;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .logosingolo {
@@ -557,6 +558,18 @@ h3 {
     text-transform: uppercase;
 }
 
+.h2number::after {
+    content: "+";
+    font-size: 14px;
+    line-height: 40px;
+    vertical-align: middle;
+    opacity: 90%;
+}
+
+.snd::after {
+    content: none;
+}
+
 .pgradpro {
     color: #ffffff;
     opacity: 90%;
@@ -567,10 +580,10 @@ h3 {
 
 /* fine row gradiente */
 
-.grigio-piccolo {
+.bianco {
     /* da cancellare */
-    height: 400px;
-    background-color: lightgrey;
+    height: 700px;
+    background-color: white;
 }
 
 /* fine stilizzazione main */
@@ -580,7 +593,7 @@ h3 {
 .petrolio {
     /* da cancellare */
     height: 400px;
-    background-color: darkblue;
+    background-color: #32495b;
 }
 
 /* fine stilizzazione footer */
