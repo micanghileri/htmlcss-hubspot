@@ -57,6 +57,7 @@ h4 {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
+    padding-top: 30px;
 }
 
 /* fine stilizzazione intera pagina */
@@ -785,6 +786,13 @@ h4 {
     background-color: lightgreen;
 }
 
+.column {
+    width: 25%;
+    padding: 15px;
+    background-color: grey;
+    float: left;
+}
+
 .linguefooter {
     height: 100px;
     background-color: yellow;
@@ -795,16 +803,44 @@ h4 {
     background-color: lightblue;
 }
 
-.ultitle li {
-    display: inline-block;
-    width: 23%;
-    text-align: center;
+.ulindice li {
+    list-style-type: none;
 }
 
 .ulindice li a {
     display: block;
     text-align: left;
+    font-size: 14px;
+    font-weight: 600px;
+    color: #cbd6e2;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
 
+.ulindice li a:hover {
+    color: #7fd1de;
+}
+
+.ulindice .specialli a {
+    color: #ffffff;
+}
+
+.ulindice .specialli a:hover {
+    color: #ffffff;
+}
+
+#hubspotsupport-button button {
+    background-color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #32495b;
+    margin-top: 15px;
+}
+
+#hubspotsupport-button button:hover {
+    background-color: #e5ecf4;
+    border: 1px solid #e5ecf4;
 }
 
 /* fine stilizzazione footer */
