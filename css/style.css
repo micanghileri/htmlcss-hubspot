@@ -25,6 +25,7 @@ body {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
     /* border: 1px solid red; */
 }
 
@@ -50,6 +51,12 @@ h3 {
     font-size: 22px;
     font-weight: 600;
     color: #33475b;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 /* fine stilizzazione intera pagina */
@@ -757,8 +764,47 @@ h3 {
 
 .petrolio {
     /* da cancellare */
-    height: 400px;
+    height: 706px;
     background-color: #32495b;
+    margin: 0 auto;
+}
+
+.area-footer {
+    height: 614px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.indicefooter {
+    height: 374px;
+
+    background-color: lightgreen;
+}
+
+.linguefooter {
+    height: 100px;
+    background-color: yellow;
+}
+
+.logofooter {
+    height: 140px;
+    background-color: lightblue;
+}
+
+.ultitle li {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+}
+
+.ulindice li a {
+    display: block;
+    text-align: left;
+
 }
 
 /* fine stilizzazione footer */
