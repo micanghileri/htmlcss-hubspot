@@ -57,7 +57,6 @@ h4 {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    padding-top: 30px;
 }
 
 /* fine stilizzazione intera pagina */
@@ -779,21 +778,12 @@ h4 {
     left: 0;
 }
 
+/* inizio indice footer */
+
 .column {
     width: 25%;
     padding: 15px;
-    background-color: grey;
     float: left;
-}
-
-.linguefooter {
-    height: 100px;
-    background-color: yellow;
-}
-
-.logofooter {
-    height: 140px;
-    background-color: lightblue;
 }
 
 .ulindice li {
@@ -839,7 +829,6 @@ h4 {
 .socialfooter {
     height: 40px;
     margin-top: 10px;
-    background-color: red;
 }
 
 .socialfooter i {
@@ -852,5 +841,83 @@ h4 {
 .socialfooter i:hover {
     color: #7fd1de;
 }
+
+/* fine indice footer */
+
+/* inizio lingue footer */
+
+.linguefooter {
+    height: 100px;
+    position: relative;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.linguefooter ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.linguefooter ul li {
+    display: inline-block;
+    color: #cbd6e2;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 9px;
+}
+
+.linguefooter ul li:hover {
+    color: #7fd1de;
+}
+
+/* fine lingue footer */
+
+/* inizio logo footer */
+
+.logofooter {
+    height: 160px;
+    position: relative;
+    background-color: lightblue;
+}
+
+#spazio-logo-footer {
+    width: 250px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: red;
+}
+
+#spazio-logo-footer img {
+    width: 100px;
+}
+
+.pfooter {
+    color: #cbd6e2;
+}
+
+#spazio-menu-footer {
+    height: 100%;
+    width: 700px;
+    float: right;
+    text-align: right;
+    background-color: green;
+}
+
+#spazio-menu-footer ul li {
+    display: inline-block;
+    line-height: 90px;
+    padding: 0 0 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #33475b;
+    padding-right: 10px;
+}
+
+/* fine logo footer */
 
 /* fine stilizzazione footer */
