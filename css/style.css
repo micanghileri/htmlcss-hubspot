@@ -226,6 +226,14 @@ h3 {
     max-width: 1297px;
 }
 
+#clouds img {
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 1100px;
+    min-width: 1100px;
+    z-index: 9;
+}
+
 .imgbassosx{
     position: absolute;
     bottom: 0;
