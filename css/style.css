@@ -21,11 +21,11 @@ body {
 }
 
 .contenitore-maxwidth {
-    width: 80%;
+    width: 75%;
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .pnormal {
@@ -585,7 +585,7 @@ h3 {
 
 .biancotop {
     /* da cancellare */
-    height: 285px;
+    height: 230px;
     background-color: #ffffff;
 }
 
@@ -654,8 +654,66 @@ h3 {
 /* inizio row bianca bottom */
 
 .biancobottom {
-    height: 400px;
     background-color: #ffffff;
+}
+
+.mwbiancobottom {
+    position: relative;
+    height: 600px;
+}
+
+.mwbiancobottom img {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+
+.copertina {
+    height: 100%;
+    position: relative;
+}
+
+.testi-biancobottom {
+    width: 530px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.testi-biancobottom h1 {
+    font-size: 46px;
+    font-weight: 700px;
+    line-height: 60px;
+    color: #33475b;
+    padding-bottom: 30px;
+}
+
+.testi-biancobottom button {
+    background-color: #FF7A59;
+    padding: 25px 30px 25px 30px;
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 15px 0 20px 0;
+}
+
+.testi-biancobottom button:hover {
+    background-color: #faac9b;
+    border: 1px solid #faac9b;
+}
+
+.psmallchiaro {
+    color: #516f90;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.pspace {
+    margin: 25px 0 25px 0;
 }
 
 /* fine row bianca bottom */
