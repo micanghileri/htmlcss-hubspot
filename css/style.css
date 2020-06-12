@@ -765,14 +765,12 @@ h4 {
 .petrolio {
     /* da cancellare */
     height: 706px;
-    background-color: #32495b;
+    background-color: #273749;
     margin: 0 auto;
 }
 
 .area-footer {
-    height: 614px;
     width: 100%;
-    border: 1px solid white;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -876,9 +874,8 @@ h4 {
 /* inizio logo footer */
 
 .logofooter {
-    height: 160px;
+    height: 130px;
     position: relative;
-    background-color: lightblue;
 }
 
 #spazio-logo-footer {
@@ -888,8 +885,6 @@ h4 {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-
-    background-color: red;
 }
 
 #spazio-logo-footer img {
@@ -901,21 +896,24 @@ h4 {
 }
 
 #spazio-menu-footer {
-    height: 100%;
-    width: 700px;
     float: right;
     text-align: right;
-    background-color: green;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 #spazio-menu-footer ul li {
     display: inline-block;
-    line-height: 90px;
-    padding: 0 0 0 30px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: #33475b;
-    padding-right: 10px;
+    color: #cbd6e2;
+    padding-right: 30px;
+}
+
+#spazio-menu-footer ul li:hover {
+    color: #7fd1de;
 }
 
 /* fine logo footer */
