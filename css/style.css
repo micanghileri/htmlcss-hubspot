@@ -98,7 +98,6 @@ h4 {
 
 #rettangolo-lingua {
     padding: 20px 20px 20px 0;
-    background-color: yellow;
 }
 
 #rettangolo-lingua p {
@@ -113,12 +112,11 @@ h4 {
 .tendina {
     background-color: #ffffff;
     border: 1px solid #cad5e1;
-    height: 200px;
-    width: 100%;
     position: absolute;
     top: 40px;
     border-radius: 3px;
     left: 0;
+    padding: 13px 0 13px 0;
     visibility: hidden;
 }
 
@@ -143,6 +141,15 @@ h4 {
     border-top: 1px solid #cad5e1;
     border-left: 1px solid #cad5e1;
     border-radius: 3px;
+}
+
+.tendina ul li {
+    padding: 7px 25px 7px 25px;
+    list-style-type: none;
+}
+
+.tendina ul li:hover {
+    background-color: #e0f3f6;
 }
 
 #chevron {
