@@ -97,7 +97,8 @@ h4 {
 }
 
 #rettangolo-lingua {
-    padding-right: 20px;
+    padding: 20px 20px 20px 0;
+    background-color: yellow;
 }
 
 #rettangolo-lingua p {
@@ -107,6 +108,41 @@ h4 {
 
 #rettangolo-lingua i {
     padding-right: 5px;
+}
+
+.tendina {
+    background-color: #ffffff;
+    border: 1px solid #cad5e1;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    border-radius: 3px;
+    left: 0;
+    visibility: hidden;
+}
+
+#rettangolo-lingua:hover .tendina {
+    visibility: visible;
+}
+
+#rettangolo-lingua:hover .triangolo {
+    visibility: visible;
+}
+
+.triangolo {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    visibility: hidden;
+    position: absolute;
+    top: -10px;
+    left: 87px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    border-top: 1px solid #cad5e1;
+    border-left: 1px solid #cad5e1;
+    border-radius: 3px;
 }
 
 #chevron {
