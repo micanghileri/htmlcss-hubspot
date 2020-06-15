@@ -115,6 +115,10 @@ h4 {
     border-radius: 3px;
     visibility: hidden;
     z-index: 8000;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    padding: 15px 25px 15px 25px;
 }
 
 .tendlingue {
@@ -269,13 +273,6 @@ h4 {
     visibility: visible;
 }
 
-.tendabout {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    padding: 15px 25px 15px 25px;
-}
-
 .triangabout{
     position: absolute;
     top: -10px;
@@ -285,12 +282,16 @@ h4 {
 .colonna {
     float: left;
     text-align: left;
+}
+
+.colabout {
     margin: 10px 10px 10px 10px
 }
 
 .colcentrale {
     margin-left: 5px;
     margin-right: 5px;
+    margin: 10px 10px 10px 10px
 }
 
 .colonna h3 {
@@ -307,6 +308,27 @@ h4 {
     display: block;
     padding: 0 20px 0 20px;
     line-height: 40px;
+}
+
+.colpart {
+    width: 320px;
+    margin: 10px 10px 10px 10px;
+}
+
+.colpart:hover {
+    background-color: #e0f3f6;
+}
+
+.two {
+    font-size: 12px;
+    padding: 0 0 20px 20px;
+    line-height: normal;
+}
+
+.triangpart{
+    position: absolute;
+    top: -10px;
+    right: 128px;
 }
 
 /* striscia copertina */
