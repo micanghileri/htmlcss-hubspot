@@ -762,8 +762,7 @@ h4 {
 }
 
 .logosingolo {
-    width: 270px;
-    height: 184px;
+    width: 25%;
     padding: 30px;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
@@ -875,7 +874,7 @@ h4 {
 }
 
 .sponsorsingolo {
-    width: 150px;
+    width: 23%;
     height: 68px;
     display: inline-block;
     position: relative;
