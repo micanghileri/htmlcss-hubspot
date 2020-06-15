@@ -296,7 +296,10 @@ h4 {
 }
 
 .colres hr, .colsoft hr {
-    border: 1px solid #cad5e1;
+    border: none;
+    height: 1px;
+    color: #cad5e1;
+    background-color: #cad5e1;
 }
 
 .dif hr {
@@ -665,8 +668,10 @@ h4 {
 .card-content hr {
     width: 90%;
     margin: 5%;
-    border: 1px solid #eaf0f6;
-
+    border: none;
+    height: 1px;
+    color: #eaf0f6;
+    background-color: #eaf0f6;
 }
 
 .psmallcard {
