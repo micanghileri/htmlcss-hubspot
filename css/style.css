@@ -284,6 +284,14 @@ h4 {
     text-align: left;
 }
 
+.colres hr {
+    border: 1px solid #cad5e1;
+}
+
+.dif hr {
+    width: 350px;
+}
+
 .colabout {
     margin: 10px 10px 10px 10px
 }
@@ -315,7 +323,16 @@ h4 {
     margin: 10px 10px 10px 10px;
 }
 
+.colres {
+    width: 320px;
+    margin: 10px 10px 10px 10px;
+}
+
 .colpart:hover {
+    background-color: #e0f3f6;
+}
+
+.colres div:hover {
     background-color: #e0f3f6;
 }
 
@@ -329,6 +346,12 @@ h4 {
     position: absolute;
     top: -10px;
     right: 128px;
+}
+
+.triangresources {
+    position: absolute;
+    top: -10px;
+    right: 257px;
 }
 
 /* striscia copertina */
